@@ -1,0 +1,8 @@
+Rosemary is a hybrid compatibility layer and high-level emulator designed for
+running macOS applications across operating systems and CPU architectures. To
+elaborate on CPU emulation, it utilizes Microlift to translate arm64 calls to
+x86 equivalents and vice versa on the fly with Cranelift.
+
+As Rosemary is a new project that primarily targets Linux and macOS over FreeBSD
+(despite official support), the current capabilities are not extensive, and you
+may run into issues.
